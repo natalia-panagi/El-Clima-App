@@ -13,3 +13,13 @@ body{
     box-shadow:0 30px 50px rgba(65, 50, 100, 0.08) ;
     border-radius: 18px;
 }
+.input-box{
+    background-color: #f9f7fe;
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    width: 80%;
+}
+.search-button{
+    background-color: aquamarine;
+}
