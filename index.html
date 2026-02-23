@@ -12,17 +12,22 @@
 <body>
     <div class="app-face">
         <header>
-     <input type="search" placeholder="Enter a city..." required class="input-box"/>
-     <input type="submit" value="Search" class="search-button" />
+            <form id="search-form"> 
+                <input type="search" placeholder="Enter a city..." required class="input-box" id="search-form-input"/>
+                <input type="submit" value="Search" class="search-button" />
+            </form>
+     
         </header>
     <div class="weather-app-data">
     <div>
-    <h1 class="current-city">Madrid</h1> 
-     <p class="current-weather-details">
-    Friday 20:25, scattered clouds
-    <br/>
-    Humidity: <strong>50%</strong>, Wind <strong>3.13</strong> km/h
-    </p>
+        <h1 class="current-city" id="city">
+        Madrid 
+        </h1>
+       <p class="current-weather-details">
+        Friday 20:25, scattered clouds
+        <br/>
+        Humidity: <strong>50%</strong>, Wind <strong>3.13</strong> km/h
+        </p>
     </div>
         <div class="current-temperature-data">
             <div class="current-temperature-icon">⛅</div>
@@ -37,5 +42,6 @@
 
 </div>
 </footer>
+<script src="src/index.js"></script>
 </body>
 </html>

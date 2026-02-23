@@ -71,6 +71,7 @@ main{
 .current-temperature-icon{
     font-size: 38px;
     margin-top: 20px;
+    padding-right: 6px;
 }
 .current-temperature-number{
     font-size: 88px;
