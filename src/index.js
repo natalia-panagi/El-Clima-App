@@ -40,6 +40,10 @@ function refreshWeather(response){
        let timeElement = document.querySelector("#time");
        timeElement.innerHTML = formatDate(date);
 
+       let iconElement = document.querySelector("#icon");
+       iconElement.innerHTML = `<img src="${response.data.condition.icon_url}" class=current-temperature-icon/>`;
+
+
    }
 
 
@@ -61,4 +65,6 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Madrid");
+
+
 
